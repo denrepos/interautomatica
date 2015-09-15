@@ -1,0 +1,31 @@
+body{
+    font-family: arial;
+}
+.underline{
+    text-decoration: underline;
+}
+.row{
+    position: relative;
+}
+
+.float-right{
+    float: right;
+}
+.float-left{
+    float: left;
+}
+.light-blue-text {
+    color: #2285C6;
+}
+.dotted{
+    border-bottom: 1px dotted;
+}
+.bold{
+    font-weight: bold;
+}
+.pointer{
+    cursor: pointer;
+}
+.display-none{
+    display: none;
+}

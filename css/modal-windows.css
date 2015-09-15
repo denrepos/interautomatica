@@ -1,0 +1,70 @@
+/*general*/
+.modal-content {
+    border-radius: 0px;
+    box-shadow: 0px 0px 0px 7px rgba(19, 82, 179, 0.17);
+}
+.modal-header {
+    background-color: #2285C6;
+    color: white;
+    padding: 12px;
+}
+.modal-title{
+    font-size: 12px;
+    font-weight: bold;
+}
+button.close {
+    color: white;
+    opacity: 1;
+    font-weight: initial;
+    margin-top: -4px;
+}
+.modal-header .close {
+    margin-top: -5px;
+}
+/*callback*/
+#callback-modal .modal-dialog{
+    width: 270px;
+}
+#callback-modal .modal-content {
+    border-radius: 0px;
+}
+#callback-modal .modal-body form {
+    color: red;
+}
+
+#callback-modal .modal-body form input{
+    height: 30px;
+    margin-bottom: 10px;
+    width: 238px;
+    color: cadetblue;
+    padding: 10px;
+}
+#callback-modal .modal-body {
+    padding: 10px;
+}
+#callback-modal .modal-body .send {
+    background-color: #2285C6;
+    border: none;
+    height: 34px;
+    width: 120px;
+    color: white;
+    font-size: 12px;
+    margin: 8px 0;
+}
+#callback-modal .modal-body .cancel {
+    background-color: white;
+    border: none;
+    color: #2285C6;
+    width: 94px;
+    font-size: 12px;
+    height: 34px;
+    margin-left: 10px;
+}
+/*road-map*/
+div#road-map-modal .modal-body {
+    padding: 0px;
+    overflow: hidden;
+}
+div#road-map-modal .modal-header{
+
+}
