@@ -37,7 +37,7 @@ button.close {
     margin-bottom: 10px;
     width: 238px;
     color: cadetblue;
-    padding: 10px;
+    padding: 0px 10px;
 }
 #callback-modal .modal-body {
     padding: 10px;
@@ -67,4 +67,52 @@ div#road-map-modal .modal-body {
 }
 div#road-map-modal .modal-header{
 
+}
+
+/*colorbox jquery*/
+#cboxOverlay{
+    height: 100%;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    background-color: #3a3939;
+    opacity: 0.6;
+    z-index: 20;
+}
+button#cboxClose:hover {
+    color: #114363;
+    font-weight: initial;
+    text-shadow: 0px 1px 0px rgba(252, 248, 248, 0.76);
+}
+button#cboxClose {
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-size: 21px;
+    height: 30px;
+    padding: 0px;
+    width: 30px;
+    line-height: 1px;
+    top: 2px;
+    position: absolute;
+    right: 1px;
+    font-weight: bold;
+}
+#colorbox{
+    box-shadow: 0px 0px 0px 7px rgba(19, 82, 179, 0.17);
+    z-index: 25;
+}
+
+div#cboxContent {
+    padding-top: 40px;
+}
+div#cboxTitle {
+    position: absolute;
+    top: 0px;
+    height: 40px;
+    background-color: rgb(34, 133, 198);
+    width: 100%;
+    color: white;
+    padding: 8px 13px;
+    font-size: 14px;
 }

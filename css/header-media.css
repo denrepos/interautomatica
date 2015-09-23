@@ -1,4 +1,4 @@
-@media (min-width: 1100px) {
+@media (min-width: 1101px) {
     .main-menu-items{
         display: block !important;
     }
@@ -7,10 +7,12 @@
     }
 }
 /*lg*/
-@media (max-width: 1099px) {
+@media (max-width: 1100px) {
+
+    /*header*/
 
     header{
-        width: 97%;
+        padding: 0px 12px;
         margin: auto;
     }
 
@@ -19,16 +21,17 @@
     }
     nav.main-menu {
         float: right;
-        margin-right: 295px;
+        margin-right: 8.2%;
         margin-top: 38px;
         position: relative;
+        padding-right: 200px;
     }
     .main-menu-items{
         display: none;
         position: absolute;
-        z-index: 10;
+        z-index: 17;
         top: 0px;
-        right: 40px;
+        right: 250px;
         background-color: #ffffff;
     }
     nav.main-menu .main-menu-items li{
@@ -50,21 +53,124 @@
     nav.main-menu a{
         text-decoration: none;
     }
+    .header-search{
+        padding-left: 149px;
+        padding-right: 200px;
+    }
+    .header-search button{
+        right: 200px;
+    }
+    button#main-menu-button {
+        padding: 0px 9px;
+    }
+    .language-switch-box{
+        padding-left: 170px;
+    }
+    .delivery-cart-wrap{
+        padding-left: 106px;
+        padding-right: 200px;
+    }
+    .delivery-cart-wrap span {
+        display: inline-block;
+        width: 120px;
+    }
+    .delivery-cart-wrap{
+        margin-top: 10px;
+        line-height: 16px;
+    }
+    .header-cart{
+        right: 200px;
+        top: 18px;
+    }
+
+    /*middle-content*/
+
+    .middle-container aside {
+        width: 220px;
+        position: absolute;
+        top: 0px;
+        left: 12px;
+    }
+    .content{
+        padding-left: 242px;
+        width: 100%;
+    }
+    .automation-components-title {
+        font-size: 18px;
+        line-height: 21px;
+        margin-top: 43px;
+    }
 }
 /*md*/
-@media (max-width: 767px) {
+@media (max-width: 768px) {
 
 }
 
 /*sm*/
-@media (max-width: 479px) {
+@media (max-width: 480px) {
 
 }
 /*xs*/
-@media (max-width: 319px) {
+@media (max-width: 320px) {
 
+    img.main-logo{
+        width: 150px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .language-switch-box{
+        margin-left: 10px;
+        margin-top: 32px;
+    }
+    nav.main-menu{
+        margin-right: 0px;
+        padding-right: 3px;
+        margin-top: 30px;
+    }
+    .header-search{
+        margin: 22px 0px 0px 0px;
+        padding: 0px;
+        width: 41px;
+        float: right;
+    }
+    .header-search button{
+        right: 0px;
+    }
+    .main-description{
+        width: 200px;
+    }
+    .delivery-cart-wrap {
+        white-space: nowrap;
+        margin: 138px 0px 0px 0px;
+        padding: 0px;
+    }
+    header{
+        height: 410px;
+    }
+    .header-cart{
+        right: 0px;
+        bottom: 33px;
+        height: 40px;
+        width: 40px;
+        border: 1px solid #D7DADD;
+    }
+    .header-cart span{
+        display: none;
+    }
+    .cart-image{
+        bottom: initial;
+        bottom: 6px;
+        left: 6px;
+    }
+    .main-menu-items{
+        right: 81px;
+    }
+    .contacts-header, .additional-contacts{
+        position: initial;
+        margin: 10px auto;
+    }
 }
 
-@media (max-width: 239px) {
+@media (max-width: 240px) {
 
 }
