@@ -116,32 +116,32 @@
                     <div class="slider-window-wrap">    
                         <div class="slider-window">
                             <div class="automation-components-previews slider-container">
-                            <div class="general-preview">
-                                <div class="preview-product-count">2394</div>
-                                <a href="#" class="img-wrap"><img src="images/auto.png" src="" alt=""/></a>
-                                <a class="link-as-text" href="#"><div class="preview-title">Автоматика</div></a>
+                                <div class="general-preview">
+                                    <div class="preview-product-count">1394</div>
+                                    <a href="#" class="img-wrap"><img src="images/auto.png" src="" alt=""/></a>
+                                    <a class="link-as-text" href="#"><div class="preview-title">Автоматика</div></a>
+                                </div>
+                                <div class="general-preview">
+                                    <div class="preview-product-count">2394</div>
+                                    <a href="#" class="img-wrap"><img src="images/auto.png" src="" alt=""/></a>
+                                    <a class="link-as-text" href="#"><div class="preview-title">Пенвматика и гидравлика</div></a>
+                                </div>
+                                <div class="general-preview">
+                                    <div class="preview-product-count">3394</div>
+                                    <a href="#" class="img-wrap"><img src="images/auto.png" src="" alt=""/></a>
+                                    <a class="link-as-text" href="#"><div class="preview-title">Автоматика</div></a>
+                                </div>
+                                <div class="general-preview">
+                                    <div class="preview-product-count">4394</div>
+                                    <a href="#" class="img-wrap"><img src="images/auto.png" src="" alt=""/></a>
+                                    <a class="link-as-text" href="#"><div class="preview-title">Автоматика</div></a>
+                                </div>
+                                <div class="general-preview">
+                                    <div class="preview-product-count">5394</div>
+                                    <a href="#" class="img-wrap"><img src="images/auto.png" src="" alt=""/></a>
+                                    <a class="link-as-text" href="#"><div class="preview-title">Автоматика</div></a>
+                                </div>
                             </div>
-                            <div class="general-preview">
-                                <div class="preview-product-count">2394</div>
-                                <a href="#" class="img-wrap"><img src="images/auto.png" src="" alt=""/></a>
-                                <a class="link-as-text" href="#"><div class="preview-title">Пенвматика и гидравлика</div></a>
-                            </div>
-                            <div class="general-preview">
-                                <div class="preview-product-count">2394</div>
-                                <a href="#" class="img-wrap"><img src="images/auto.png" src="" alt=""/></a>
-                                <a class="link-as-text" href="#"><div class="preview-title">Автоматика</div></a>
-                            </div>
-                            <div class="general-preview">
-                                <div class="preview-product-count">2394</div>
-                                <a href="#" class="img-wrap"><img src="images/auto.png" src="" alt=""/></a>
-                                <a class="link-as-text" href="#"><div class="preview-title">Автоматика</div></a>
-                            </div>
-                            <div class="general-preview">
-                                <div class="preview-product-count">2394</div>
-                                <a href="#" class="img-wrap"><img src="images/auto.png" src="" alt=""/></a>
-                                <a class="link-as-text" href="#"><div class="preview-title">Автоматика</div></a>
-                            </div>
-                        </div>
                         </div>
 
                         <div class="left-rewind-grey"></div>
@@ -462,7 +462,7 @@
                 </div>
                 <div class="manufacturers">
                     <div class="previews-title">ДИСТРИБУЦИЯ ПРОИЗВОДИТЕЛЕЙ ПРОМЫШЛЕННОЙ АВТОМАТИКИ
-                        <a href="#" href="" class="upstairs-button">Наверх</a>
+                        <button class="upstairs-button">Наверх</button>
                     </div>
                     <div class="manufacturers-previews">
                         <div class="general-preview">
@@ -538,7 +538,7 @@
                 </div>
                 <div class="design-development">
                     <div class="previews-title">ПРОЕКТИРОВАНИЕ И РАЗРАБОТКА ЭЛЕТКРОННЫХ УСТРОЙСТВ
-                        <a href="#" href="" class="upstairs-button">Наверх</a>
+                        <button class="upstairs-button">Наверх</button>
                     </div>
                     <div class="design-development-previews">
                         <div class="general-preview">
@@ -584,7 +584,7 @@
                 </div>
                 <div class="viewed-products">
                     <div class="previews-title">ПРОСМОТРЕННЫЕ ТОВАРЫ
-                        <a href="#" href="" class="upstairs-button">Наверх</a>
+                        <button class="upstairs-button">Наверх</button>
                     </div>
                     <div class="slider-window-wrap">
                         <div class="slider-window">
@@ -881,7 +881,7 @@
                 </div>
                 <div class="text-under-footer">
                     <div class="text-under-footer-title">Мы рады приветствовать Вас на нашем сайте!
-                        <a href="#" href="" class="upstairs-button">Наверх</a>
+                        <button class="upstairs-button">Наверх</button>
                     </div>
                     <div class="text-under-footer-content">
                         Наше предприятие поставляет компоненты промышленной автоматики, электроники, пневматики и гидравлики для производителей промышленного оборудования, машин и шкафов управления, системных интеграторов, сервисных служб, дистрибьюторов и конечных потребителей.

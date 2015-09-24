@@ -89,6 +89,11 @@ $('document').ready(function(){
 
     });
 
+    // scroll to top
+    $('.upstairs-button').click(function(){
+        $('body').stop().animate({scrollTop:0}, '500', 'swing');
+    });
+
     //
     $('.banner-carousel-img-wrap img').click(function(){
         $('#image-modal .modal0-dialog').width($(this).width());
@@ -110,6 +115,10 @@ $('document').ready(function(){
         });
 
     })
+
+    //init preview slider
+
+    PreviewSlider.init();
 
     $('.left-rewind-blue').click(function(){
 
@@ -231,7 +240,7 @@ arr = [
 
 function PreviewSlider(slider){
 
-    this.window = self_window = $(slider);
+    this.window = $(slider);
     this.windowWidth = this.window.width();
     this.container = this.window.find('.slider-container');
     this.left = this.container.position().left;
@@ -241,21 +250,35 @@ function PreviewSlider(slider){
     this.numSections = Math.floor(this.windowWidth / this.previewWidth);
     this.offset = this.previewWidth * this.numSections;
     this.previosPositionX = 0;
-    this.swioeOffset = 0;
+    this.swipeOffset = 0;
 
     this.nextBlock = function(speed,loop){
 
+        loop = 'wheel';
+
         var speed = speed || 'slow';
-        var loop = loop === false ? false : true;
-        var offsetEnd = this.containerWidth +    this.left;
+        var loop = loop !== undefined ? loop : false;
+        var offsetEnd = this.containerWidth + this.left;
         var left = this.left - this.offset;
 
-        if(offsetEnd  < this.windowWidth){
+        if(offsetEnd - this.offset  < this.windowWidth ){
 
             if(loop){
-                left = 0;
-            }else{
-                left = this.offset - this.containerWidth;
+
+                if(loop == 'line') {
+
+                    left = 0;
+
+                }else if(loop == 'wheel'){
+
+                    this.container.append(this.container.children().slice(0,this.numSections));
+                    this.container.css('left',this.left + this.offset);
+                    left += this.offset;
+
+                }else {
+
+                    left = this.offset - this.containerWidth;
+                }
             }
         }
 
@@ -267,18 +290,31 @@ function PreviewSlider(slider){
 
     this.prevBlock = function(speed,loop){
 
+        loop = 'wheel';
+
         var speed = speed || 'slow';
-        var loop = loop === false ? false : true;
+        var loop = loop !== undefined ? loop : false;
         var left = this.left + this.offset;
 
         if(this.left >= 0){
 
             if(loop){
-                left = 0 - this.containerWidth + this.offset;
-            }else{
-                left = 0;
-            }
 
+                if(loop == 'line'){
+
+                    left = 0 - this.containerWidth + this.offset;
+
+                }else if(loop == 'wheel') {
+
+                    this.container.prepend(this.container.children().slice( - this.numSections));
+                    this.container.css('left',this.left - this.offset);
+                    left -= this.offset;
+
+                }else{
+
+                    left = 0;
+                }
+            }
         }
 
         this.container.animate({left:left+'px'},speed).queue(function(){
@@ -291,12 +327,30 @@ function PreviewSlider(slider){
 
         if (this.previosPositionX){
 
-            this.swioeOffset += e.changedTouches[0].clientX - this.previosPositionX;
-            
-            this.container.css({left:this.left + this.swioeOffset});
+            this.swipeOffset += e.changedTouches[0].clientX - this.previosPositionX;
+
+            this.container.css({left:this.left + this.swipeOffset});
         }
 
         this.previosPositionX = e.changedTouches[0].clientX;
 
     }
+
+}
+
+PreviewSlider.init = function(){
+
+    $('.slider-window').each(function(){
+
+        var jq_this = $(this);
+        var container = jq_this.find('.slider-container');
+        var container_width = container.width();
+
+        if(jq_this.width() * 2 > container_width){
+
+            container.append(container.children().clone());
+            container.width(container_width * 2);
+        }
+    });
+
 }

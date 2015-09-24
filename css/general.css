@@ -180,12 +180,14 @@ a.link-as-text {
     background-repeat: no-repeat;
     display: inline-block;
     padding-right: 15px;
-    background-position: right 3px;
+    background-position: right 4px;
     float: right;
     font-size: 12px;
     font-weight: normal;
     cursor: pointer;
     color: #2285C6;
+    background-color: transparent;
+    border: none;
 }
 .rating-stars{
     width: 95px;
