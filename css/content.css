@@ -50,7 +50,7 @@
 }
 .right-under-previews{
     width: 45%;
-    float: left;
+    float: right;
 }
 .block-under-previews ul li:before {
     content: '.';
@@ -65,8 +65,8 @@
 }
  .block-under-previews ul{
     width: 54.6%;
-    float: left;
-    padding-left: 70px;
+    float: right;
+    padding-left: 66px;
     padding-top: 29px;
     font-size: 13px;
     line-height: 16px;
@@ -93,6 +93,7 @@ span.social-text {
     font-weight: bold;
     margin-left: 10px;
     margin-top: 37px;
+    position: relative;
 }
 .popular-previews {
     margin-top: 6px;
@@ -155,10 +156,10 @@ span.social-text {
 /*manufacturers*/
 
 .manufacturers-previews {
-    border: 1px solid rgb(227, 227, 219);
     display: inline-block;
     padding-bottom: 8px;
     box-sizing: content-box;
+    width: 860px;
 }
 .manufacturers-preview-title {
     float: left;
@@ -167,11 +168,12 @@ span.social-text {
 }
 .manufacturers .previews-title {
     margin-top: 60px;
+    margin-bottom: 15px;
 }
-.manufacturers-previews {
-    margin-top: 15px;
+.manufacturers .slider-window{
+    border: 1px solid rgb(227, 227, 219);
 }
-.manufacturers-previews:hover {
+.manufacturers .slider-window:hover {
     background-color: #F0F0E1;
 }
 .manufacturers-preview-description:hover {
@@ -188,6 +190,12 @@ span.social-text {
 }
 .manufacturers .general-preview{
     margin: 9px 1px 1px 9px;
+}
+.general-preview-wrap {
+    float: left;
+}
+.general-preview-wrap > div {
+    clear: both;
 }
 button.general-button:hover {
     color: white;
@@ -218,8 +226,12 @@ button.general-button {
     margin-top: 43px;
     margin-bottom: 5px;
 }
+.previews-title{
+    padding-right: 80px;
+}
 .design-development-previews{
     display: inline-block;
+    width: 850px;
 }
 .design-development-previews .img-wrap{
     height: 91px;
@@ -264,6 +276,9 @@ button.general-button {
 .viewed-products-preview-title{
     height: 46px;
     overflow: hidden;
+}
+.text-under-footer{
+    position: relative;
 }
 .text-under-footer-title {
     font-size: 18px;

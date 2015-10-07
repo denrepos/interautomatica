@@ -316,6 +316,7 @@ ul.submenu > li {
     list-style-type: none;
     height: 40px;
     padding: 10px 10px 0px 15px;
+    position: relative;
 }
 span.submenu-item-number {
     padding: 0px 9px 0px 15px;
@@ -363,4 +364,13 @@ span.submenu-item-arrow.glyphicon.glyphicon-menu-right {
 }
 ul.submenu a.link-blue-text{
     color: #2285C6;
+}
+span.submenu-item-title {
+    padding-right: 60px;
+    display: inline-block;
+}
+.submenu-products-number{
+    position: absolute;
+    right: 10px;
+    top: 12px;
 }

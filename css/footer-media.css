@@ -25,25 +25,30 @@
 @media screen and (max-width: 1100px) {
 
     .footer-block-1{
-        width: 30%;
-        padding-left: 25px;
+        width: 32%;
+        margin-left: 8%;
     }
     .footer-block-2{
-        width: 30%;
+        width: 32%;
     }
     .footer-block-3{
-        width: 30%;
+        width: 26%;
     }
     .footer-block-4{
-        width: 256px;
+        width: 50%;
+        padding-left: 15%;
+        margin-top: 22px;
+        margin-bottom: 30px;
     }
     .footer-block-5{
         width: 225px;
+        margin-top: 20px;
+    }
+    .footer-block-5 .contacts-header{
+        left: 40px;
     }
 
-    .right-rewind-grey, .right-rewind-blue{
-        right: 103px;
-    }
+
 
 }
 /*md*/

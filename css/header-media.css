@@ -66,6 +66,9 @@
     .language-switch-box{
         padding-left: 170px;
     }
+    .language-switch-hidden {
+        right: -43px;
+    }
     .delivery-cart-wrap{
         padding-left: 106px;
         padding-right: 200px;
@@ -90,10 +93,6 @@
         position: absolute;
         top: 0px;
         left: 12px;
-    }
-    .content{
-        padding-left: 242px;
-        width: 100%;
     }
     .automation-components-title {
         font-size: 18px;

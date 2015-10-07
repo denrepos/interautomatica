@@ -11,7 +11,7 @@ footer {
 .copyright {
     background-color: #2285C6;
     text-align: center;
-    padding: 20px;
+    padding: 20px 140px;
     font-size: 11px;
     width: 100%;
 }
@@ -21,7 +21,7 @@ footer {
 .footer-block-1,.footer-block-2, .footer-block-3{
     padding-top: 9px;
 }
-.footer a{
+.footer > div:not(.footer-block-5) a{
     color: white;
 }
 .footer-row{

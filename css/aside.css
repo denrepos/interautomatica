@@ -68,6 +68,13 @@
 .banner.blog .banner-content .text-wrap, .banner.novelty .banner-content .text-wrap {
     display: inline-block;
     margin-bottom: 14px;
+    line-height: 17px;
+}
+@supports (-moz-appearance:meterbar) {
+    .banner .glyphicon.glyphicon-menu-right::before {
+        position: absolute;
+        top: 1px;
+    }
 }
 .banner.blog .banner-content a, .banner.novelty .banner-content a {
     text-decoration: none;
@@ -76,7 +83,8 @@
 }
 .banner.blog .banner-content > a:hover .glyphicon.glyphicon-menu-right, .banner.novelty .banner-content > a:hover .glyphicon.glyphicon-menu-right {
     display: inline;
-}div#cboxContent {
+}
+div#cboxContent {
      padding-top: 40px;
  }
 .banner.blog .banner-content .glyphicon.glyphicon-menu-right, .banner.novelty .banner-content .glyphicon.glyphicon-menu-right {

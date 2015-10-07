@@ -1,0 +1,87 @@
+
+@media (min-width: 1101px) {
+
+}
+@media (max-width: 1100px) {
+
+
+    .slider-window:after {
+        content: '';
+        position: absolute;
+        background: linear-gradient(to left, white 47%, transparent );
+        height: 90%;
+        top: 11px;
+        width: 103px;
+        right: 0px;
+    }
+
+    .popular-products .slider-window:after{
+        height: 198px;
+        top: 17px;
+    }
+
+    .manufacturers .slider-window:after{
+        height: 408px;
+        top: 10px;
+    }
+
+    .design-development .slider-window:after {
+        height: 198px;
+        top: 11px;
+    }
+
+    .viewed-products .slider-window:after {
+        height: 198px;
+        top: 16px;
+    }
+
+    .right-rewind-grey, .right-rewind-blue {
+        right: 7px;
+    }
+    .content{
+        padding-left: 242px;
+        padding-right: 12px;
+        width: 100%;
+    }
+
+    .block-under-previews ul{
+        padding-left: 20px;
+    }
+
+    .social-text{
+        display: none;
+    }
+
+    .left-rewind-grey, .left-rewind-blue{
+        display: none;
+    }
+
+    .right-under-previews{
+        width: 34%;
+    }
+    .block-under-previews ul{
+        width: 66%
+    }
+
+    .upstairs-button{
+        top: 6px;
+    }
+    /*.content > :not(.viewed-products, .automation-components, .popular-products, .manufacturers, .design-development, .text-under-footer) {*/
+    /*margin-right: 12px;*/
+    /*}*/
+
+}
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 480px) {
+
+}
+@media (max-width: 320px) {
+
+}
+
+@media (max-width: 240px) {
+
+}

@@ -50,7 +50,7 @@
                         <div class="title-lang">RU</div>
                         <div class="triangle-lang"></div>
                     </div>
-                    <div class="language-switch-hidden pointer popup event" style="display: none">
+                    <div class="language-switch-hidden pointer popup" style="display: none">
                         <a class="current-language">
                             <div class="flag-image ru"></div>
                             <div class="title-lang">Русский</div>
@@ -114,9 +114,9 @@
                 <div class="automation-components">
                     <h2 class="automation-components-title">Компоненты промышленной автоматики, гидравлики и электроники</h2>
                     <div class="slider-window-wrap">    
-                        <div class="slider-window">
+                        <div class="slider-window" data-scroll-step="1">
                             <div class="automation-components-previews slider-container">
-                                <div class="general-preview">
+                                <div class="general-preview start">
                                     <div class="preview-product-count">1394</div>
                                     <a href="#" class="img-wrap"><img src="images/auto.png" src="" alt=""/></a>
                                     <a class="link-as-text" href="#"><div class="preview-title">Автоматика</div></a>
@@ -151,15 +151,15 @@
 
                     </div>    
                     <div class="block-under-previews">
+                        <div class="right-under-previews">
+                            <img src="images/social.png" alt=""/>
+                            <span class="social-text">Поделиться информацией в соцсетях</span>
+                        </div>
                         <ul>
                             <li>27 000 наименований товара</li>
                             <li>513 категорий ассортимента</li>
                             <li>Вся продукция напрямую от поставщика</li>
                         </ul>
-                        <div class="right-under-previews">
-                            <img src="images/social.png" alt=""/>
-                            <span class="social-text">Поделиться информацией в соцсетях</span>
-                        </div>
                     </div>
                 </div>
 
@@ -464,111 +464,147 @@
                     <div class="previews-title">ДИСТРИБУЦИЯ ПРОИЗВОДИТЕЛЕЙ ПРОМЫШЛЕННОЙ АВТОМАТИКИ
                         <button class="upstairs-button">Наверх</button>
                     </div>
-                    <div class="manufacturers-previews">
-                        <div class="general-preview">
-                            <div class="manufacturers-preview-title">Oem Automatic</div>
-                            <div class="preview-product-count">4354</div>
-                            <a href="#" class="img-wrap"><img src="images/demo/manufacturer.png" alt=""/></a>
-                            <a href="#" class="manufacturers-preview-description">OEM Automatic фильтры, системы фильтрации и адсорбенты, промышленные датчики температуры</a>
+                    <div class="slider-window-wrap">
+                        <div class="slider-window " data-scroll-step="1">
+                            <div class="manufacturers-previews slider-container">
+                                <div class="general-preview-wrap">
+                                    <div class="general-preview">
+                                        <div class="manufacturers-preview-title">Oem Automatic</div>
+                                        <div class="preview-product-count">4354</div>
+                                        <a href="#" class="img-wrap"><img src="images/demo/manufacturer.png" alt=""/></a>
+                                        <a href="#" class="manufacturers-preview-description">OEM Automatic фильтры, системы фильтрации и адсорбенты, промышленные датчики температуры</a>
+                                    </div>
+                                    <div class="general-preview">
+                                        <div class="manufacturers-preview-title">Oem Automatic</div>
+                                        <div class="preview-product-count">4354</div>
+                                        <a href="#" class="img-wrap"><img src="images/demo/manufacturer.png" alt=""/></a>
+                                        <a href="#" class="manufacturers-preview-description">OEM Automatic фильтры, системы фильтрации и адсорбенты, промышленные датчики температуры</a>
+                                    </div>
+                                </div>
+                                <div class="general-preview-wrap">
+                                    <div class="general-preview">
+                                        <div class="manufacturers-preview-title">Oem Automatic</div>
+                                        <div class="preview-product-count">4354</div>
+                                        <a href="#" class="img-wrap"><img src="images/demo/manufacturer.png" alt=""/></a>
+                                        <a href="#" class="manufacturers-preview-description">OEM Automatic фильтры, системы фильтрации и адсорбенты, промышленные датчики температуры</a>
+                                    </div>
+                                    <div class="general-preview">
+                                        <div class="manufacturers-preview-title">Oem Automatic</div>
+                                        <div class="preview-product-count">4354</div>
+                                        <a href="#" class="img-wrap"><img src="images/demo/manufacturer.png" alt=""/></a>
+                                        <a href="#" class="manufacturers-preview-description">OEM Automatic фильтры, системы фильтрации и адсорбенты, промышленные датчики температуры</a>
+                                    </div>
+                                </div>
+                                <div class="general-preview-wrap">
+                                    <div class="general-preview">
+                                        <div class="manufacturers-preview-title">Oem Automatic</div>
+                                        <div class="preview-product-count">4354</div>
+                                        <a href="#" class="img-wrap"><img src="images/demo/manufacturer.png" alt=""/></a>
+                                        <a href="#" class="manufacturers-preview-description">OEM Automatic фильтры, системы фильтрации и адсорбенты, промышленные датчики температуры</a>
+                                    </div>
+                                    <div class="general-preview">
+                                        <div class="manufacturers-preview-title">Oem Automatic</div>
+                                        <div class="preview-product-count">4354</div>
+                                        <a href="#" class="img-wrap"><img src="images/demo/manufacturer.png" alt=""/></a>
+                                        <a href="#" class="manufacturers-preview-description">OEM Automatic фильтры, системы фильтрации и адсорбенты, промышленные датчики температуры</a>
+                                    </div>
+                                </div>
+                                <div class="general-preview-wrap">
+                                    <div class="general-preview">
+                                        <div class="manufacturers-preview-title">Oem Automatic</div>
+                                        <div class="preview-product-count">4354</div>
+                                        <a href="#" class="img-wrap"><img src="images/demo/manufacturer.png" alt=""/></a>
+                                        <a href="#" class="manufacturers-preview-description">OEM Automatic фильтры, системы фильтрации и адсорбенты, промышленные датчики температуры</a>
+                                    </div>
+                                    <div class="general-preview">
+                                        <div class="manufacturers-preview-title">Oem Automatic</div>
+                                        <div class="preview-product-count">4354</div>
+                                        <a href="#" class="img-wrap"><img src="images/demo/manufacturer.png" alt=""/></a>
+                                        <a href="#" class="manufacturers-preview-description">OEM Automatic фильтры, системы фильтрации и адсорбенты, промышленные датчики температуры</a>
+                                    </div>
+                                </div>
+                                <div class="general-preview-wrap">
+                                    <div class="general-preview">
+                                        <div class="manufacturers-preview-title">Oem Automatic</div>
+                                        <div class="preview-product-count">4354</div>
+                                        <a href="#" class="img-wrap"><img src="images/demo/manufacturer.png" alt=""/></a>
+                                        <a href="#" class="manufacturers-preview-description">OEM Automatic фильтры, системы фильтрации и адсорбенты, промышленные датчики температуры</a>
+                                    </div>
+                                    <div class="general-preview">
+                                        <div class="manufacturers-preview-title">Oem Automatic</div>
+                                        <div class="preview-product-count">4354</div>
+                                        <a href="#" class="img-wrap"><img src="images/demo/manufacturer.png" alt=""/></a>
+                                        <a href="#" class="manufacturers-preview-description">OEM Automatic фильтры, системы фильтрации и адсорбенты, промышленные датчики температуры</a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="general-preview">
-                            <div class="manufacturers-preview-title">Oem Automatic</div>
-                            <div class="preview-product-count">4354</div>
-                            <a href="#" class="img-wrap"><img src="images/demo/manufacturer.png" alt=""/></a>
-                            <a href="#" class="manufacturers-preview-description">OEM Automatic фильтры, системы фильтрации и адсорбенты, промышленные датчики температуры</a>
-                        </div>
-                        <div class="general-preview">
-                            <div class="manufacturers-preview-title">Oem Automatic</div>
-                            <div class="preview-product-count">4354</div>
-                            <a href="#" class="img-wrap"><img src="images/demo/manufacturer.png" alt=""/></a>
-                            <a href="#" class="manufacturers-preview-description">OEM Automatic фильтры, системы фильтрации и адсорбенты, промышленные датчики температуры</a>
-                        </div>
-                        <div class="general-preview">
-                            <div class="manufacturers-preview-title">Oem Automatic</div>
-                            <div class="preview-product-count">4354</div>
-                            <a href="#" class="img-wrap"><img src="images/demo/manufacturer.png" alt=""/></a>
-                            <a href="#" class="manufacturers-preview-description">OEM Automatic фильтры, системы фильтрации и адсорбенты, промышленные датчики температуры</a>
-                        </div>
-                        <div class="general-preview">
-                            <div class="manufacturers-preview-title">Oem Automatic</div>
-                            <div class="preview-product-count">4354</div>
-                            <a href="#" class="img-wrap"><img src="images/demo/manufacturer.png" alt=""/></a>
-                            <a href="#" class="manufacturers-preview-description">OEM Automatic фильтры, системы фильтрации и адсорбенты, промышленные датчики температуры</a>
-                        </div>
-                        <div class="general-preview">
-                            <div class="manufacturers-preview-title">Oem Automatic</div>
-                            <div class="preview-product-count">4354</div>
-                            <a href="#" class="img-wrap"><img src="images/demo/manufacturer.png" alt=""/></a>
-                            <a href="#" class="manufacturers-preview-description">OEM Automatic фильтры, системы фильтрации и адсорбенты, промышленные датчики температуры</a>
-                        </div>
-                        <div class="general-preview">
-                            <div class="manufacturers-preview-title">Oem Automatic</div>
-                            <div class="preview-product-count">4354</div>
-                            <a href="#" class="img-wrap"><img src="images/demo/manufacturer.png" alt=""/></a>
-                            <a href="#" class="manufacturers-preview-description">OEM Automatic фильтры, системы фильтрации и адсорбенты, промышленные датчики температуры</a>
-                        </div>
-                        <div class="general-preview">
-                            <div class="manufacturers-preview-title">Oem Automatic</div>
-                            <div class="preview-product-count">4354</div>
-                            <a href="#" class="img-wrap"><img src="images/demo/manufacturer.png" alt=""/></a>
-                            <a href="#" class="manufacturers-preview-description">OEM Automatic фильтры, системы фильтрации и адсорбенты, промышленные датчики температуры</a>
-                        </div>
-                        <div class="general-preview">
-                            <div class="manufacturers-preview-title">Oem Automatic</div>
-                            <div class="preview-product-count">4354</div>
-                            <a href="#" class="img-wrap"><img src="images/demo/manufacturer.png" alt=""/></a>
-                            <a href="#" class="manufacturers-preview-description">OEM Automatic фильтры, системы фильтрации и адсорбенты, промышленные датчики температуры</a>
-                        </div>
-                        <div class="general-preview">
-                            <div class="manufacturers-preview-title">Oem Automatic</div>
-                            <div class="preview-product-count">4354</div>
-                            <a href="#" class="img-wrap"><img src="images/demo/manufacturer.png" alt=""/></a>
-                            <a href="#" class="manufacturers-preview-description">OEM Automatic фильтры, системы фильтрации и адсорбенты, промышленные датчики температуры</a>
-                        </div>
+
+                        <div class="left-rewind-grey"></div>
+                        <div class="left-rewind-blue"></div>
+                        <div class="right-rewind-grey"></div>
+                        <div class="right-rewind-blue"></div>
+
                     </div>
                     <div class="block-under-previews">
+                        <div class="right-under-previews">
+                            <button class="general-button">Обзор брендов</button>
+                        </div>
                         <ul>
                             <li>23 бренда (партнёра) из 8 стран мира</li>
                             <li>40 различных видов импортного оборудования</li>
                         </ul>
-                        <div class="right-under-previews">
-                            <button class="general-button">Обзор брендов</button>
-                        </div>
                     </div>
                 </div>
                 <div class="design-development">
                     <div class="previews-title">ПРОЕКТИРОВАНИЕ И РАЗРАБОТКА ЭЛЕТКРОННЫХ УСТРОЙСТВ
                         <button class="upstairs-button">Наверх</button>
                     </div>
-                    <div class="design-development-previews">
-                        <div class="general-preview">
-                            <div>iForse</div>
-                            <a class="img-wrap" href="#"><img src="images/demo/develop.png" alt=""/></a>
-                            <a class="development-previews-description link-as-text" href="#">Прибор можно держать и управлять одной рукой. Разработана 4х слойная плата ВЧ и ещё много чего....</a>
-                        </div>
-                        <div class="general-preview">
-                            <div>iForse</div>
-                            <a class="img-wrap" href="#"><img src="images/demo/develop.png" alt=""/></a>
-                            <a class="development-previews-description link-as-text" href="#">Прибор можно держать и управлять одной рукой. Разработана 4х слойная плата ВЧ и ещё много чего....</a>
-                        </div>
-                        <div class="general-preview">
-                            <div>iForse</div>
-                            <a class="img-wrap" href="#"><img src="images/demo/develop.png" alt=""/></a>
-                            <a class="development-previews-description link-as-text" href="#">Прибор можно держать и управлять одной рукой. Разработана 4х слойная плата ВЧ и ещё много чего....</a>
-                        </div>
-                        <div class="general-preview">
-                            <div>iForse</div>
-                            <a class="img-wrap" href="#"><img src="images/demo/develop.png" alt=""/></a>
-                            <a class="development-previews-description link-as-text" href="#">Прибор можно держать и управлять одной рукой. Разработана 4х слойная плата ВЧ и ещё много чего....</a>
-                        </div>
-                        <div class="general-preview">
-                            <div>iForse</div>
-                            <a class="img-wrap" href="#"><img src="images/demo/develop.png" alt=""/></a>
-                            <a class="development-previews-description link-as-text" href="#">Прибор можно держать и управлять одной рукой. Разработана 4х слойная плата ВЧ и ещё много чего....</a>
+                    <div class="slider-window-wrap">
+                        <div class="slider-window" data-scroll-step="1">
+
+                            <div class="design-development-previews slider-container">
+                                <div class="general-preview">
+                                    <div>iForse</div>
+                                    <a class="img-wrap" href="#"><img src="images/demo/develop.png" alt=""/></a>
+                                    <a class="development-previews-description link-as-text" href="#">Прибор можно держать и управлять одной рукой. Разработана 4х слойная плата ВЧ и ещё много чего....</a>
+                                </div>
+                                <div class="general-preview">
+                                    <div>iForse</div>
+                                    <a class="img-wrap" href="#"><img src="images/demo/develop.png" alt=""/></a>
+                                    <a class="development-previews-description link-as-text" href="#">Прибор можно держать и управлять одной рукой. Разработана 4х слойная плата ВЧ и ещё много чего....</a>
+                                </div>
+                                <div class="general-preview">
+                                    <div>iForse</div>
+                                    <a class="img-wrap" href="#"><img src="images/demo/develop.png" alt=""/></a>
+                                    <a class="development-previews-description link-as-text" href="#">Прибор можно держать и управлять одной рукой. Разработана 4х слойная плата ВЧ и ещё много чего....</a>
+                                </div>
+                                <div class="general-preview">
+                                    <div>iForse</div>
+                                    <a class="img-wrap" href="#"><img src="images/demo/develop.png" alt=""/></a>
+                                    <a class="development-previews-description link-as-text" href="#">Прибор можно держать и управлять одной рукой. Разработана 4х слойная плата ВЧ и ещё много чего....</a>
+                                </div>
+                                <div class="general-preview">
+                                    <div>iForse</div>
+                                    <a class="img-wrap" href="#"><img src="images/demo/develop.png" alt=""/></a>
+                                    <a class="development-previews-description link-as-text" href="#">Прибор можно держать и управлять одной рукой. Разработана 4х слойная плата ВЧ и ещё много чего....</a>
+                                </div>
+
+                            </div>
+
                         </div>
 
+                        <div class="left-rewind-grey"></div>
+                        <div class="left-rewind-blue"></div>
+                        <div class="right-rewind-grey"></div>
+                        <div class="right-rewind-blue"></div>
+
                     </div>
+
                     <div class="block-under-previews">
+                        <div class="right-under-previews">
+                            <button class="general-button">Подробнее о сервисе</button>
+                        </div>
                         <ul>
                             <li>Проэктирование электронных устройсвт</li>
                             <li>Разработка програмного обеспечения</li>
@@ -577,9 +613,6 @@
                             <li>Разработка оборудования</li>
                             <li>Проэктирование систем автоматизации управления</li>
                         </ul>
-                        <div class="right-under-previews">
-                            <button class="general-button">Подробнее о сервисе</button>
-                        </div>
                     </div>
                 </div>
                 <div class="viewed-products">
@@ -587,7 +620,7 @@
                         <button class="upstairs-button">Наверх</button>
                     </div>
                     <div class="slider-window-wrap">
-                        <div class="slider-window">
+                        <div class="slider-window" data-scroll-step="1">
                             <div class="viewed-products-previews slider-container">
                                 <div class="general-preview">
                                     <a href="#" class="img-wrap">
@@ -1014,22 +1047,22 @@
             </div>
             <div class="footer-block-4">
                 <div class="footer-block-wrap">
-                    <div class="footer-row"><a href="#">Наличный и безналичный расчет</a></div>
+                    <div class="footer-row">Наличный и безналичный расчет</div>
                     <img src="images/pay-system.png" alt=""/>
 
-                    <div class="footer-row"><a href="#">Доставка: "Новая почта"</a></div>
-                    <div class="footer-row"><a href="#">Гаранитя на все обарудование</a></div>
+                    <div class="footer-row">Доставка: "Новая почта"</div>
+                    <div class="footer-row">Гаранитя на все обарудование</div>
                 </div>
             </div>
             <div class="footer-block-5">
                 <div class="contacts-header">
-                    <span class="bold">Не дозвонились?</span><span class="light-blue-text float-right pointer" onclick="$('#callback-modal').modal('show');">Заказать звонок</span>
+                    <span class="bold">Не дозвонились?</span><a class="light-blue-text float-right pointer" onclick="$('#callback-modal').modal('show');">Заказать звонок</a>
                     <br /><span class="fax">Факс: </span><span class="float-right phone-header">+38 (056) 744 97 31</span>
                     <br /><span class="tel">Тел.: </span><span class="float-right phone-header-double"><span>+38 (056) 744 97 31</span><br><span>+38 (056) 744 97 31</span></span>
                     <br /><span>E-mail: </span><a class="light-blue-text float-right underline" href="mailto:info@interautomatic.com.ua">info@interautomatic.com.ua</a>
                     <br /><span class="office">Офис: 49126 г. Днепропетровск</span>
                     <br/><span>ул. Паникахи, 2</span>
-                    <span class="float-right light-blue-text pointer" onclick="$('#road-map-modal').modal('show')">Карта проезда</span>
+                    <a class="float-right light-blue-text pointer" onclick="$('#road-map-modal').modal('show')">Карта проезда</a>
                 </div>
             </div>
         </div>
