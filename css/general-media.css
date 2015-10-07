@@ -1,12 +1,11 @@
-@media (min-width: 1101px) {
+@media (min-width: 1100px) {
 
     .middle-container{
         margin: auto;
         width: 1100px;
     }
 }
-/*lg*/
-@media (max-width: 1100px) {
+@media (max-width: 1099px) {
 
     .design-development .slider-window:after {
         height: 98%;
@@ -37,20 +36,20 @@
     /*}*/
 }
 /*md*/
-@media (max-width: 768px) {
+@media (max-width: 767px) {
 
 }
 
 /*sm*/
-@media (max-width: 480px) {
+@media (max-width: 479px) {
 
 }
 /*xs*/
-@media (max-width: 320px) {
+@media (max-width: 319px) {
 
 }
 
-@media (max-width: 240px) {
+@media (max-width: 239px) {
 
 }
 

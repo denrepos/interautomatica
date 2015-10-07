@@ -87,7 +87,7 @@ $('document').ready(function(){
         $(this).closest('ul').find('.active').removeClass('active');
         
 
-        if(window.matchMedia("(max-width: 1100px)").matches){
+        if(window.matchMedia("(max-width: 1099px)").matches){
 
             var ul = $(this).closest('ul');
             var leftIndent = 20;
