@@ -54,6 +54,24 @@
 /*md*/
 @media (max-width: 767px) {
 
+    .footer-block-1 {
+        width: 49%;
+        margin-left: 30px;
+    }
+    .footer-block-3 {
+        width: 49%;
+        clear: both;
+        margin-left: 30px;
+    }
+    .footer-block-4{
+        width: auto;
+        margin: 0;
+        padding: 0;
+    }
+    footer .footer-block-5{
+        margin: auto;
+        float: none;
+    }
 }
 
 /*sm*/

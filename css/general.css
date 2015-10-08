@@ -175,6 +175,9 @@ a.link-as-text {
 .upstairs-button:hover{
     color: #23527c;
 }
+.popular-products .upstairs-button{
+    display: none;
+}
 .upstairs-button {
     background-image: url(../images/upstairs-arrow.png);
     background-repeat: no-repeat;

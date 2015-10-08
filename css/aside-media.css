@@ -30,9 +30,30 @@
         width: 97%;
         max-width: 400px;
     }
+    .middle-container aside {
+        width: 220px;
+        position: absolute;
+        top: 0px;
+        left: 12px;
+    }
 }
 @media (max-width: 767px) {
-
+    .middle-container aside{
+        position: static;
+        margin: auto;
+        float: none;
+    }
+    .price-banner-wrap {
+        position: absolute;
+        top: 0;
+        left: 20px;
+    }
+    .text-under-footer{
+        padding: 0 20px;
+    }
+    .text-under-footer-title .upstairs-button{
+        display: none;
+    }
 }
 
 @media (max-width: 479px) {

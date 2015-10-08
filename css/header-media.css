@@ -86,23 +86,61 @@
         top: 18px;
     }
 
-    /*middle-content*/
-
-    .middle-container aside {
-        width: 220px;
-        position: absolute;
-        top: 0px;
-        left: 12px;
-    }
-    .automation-components-title {
-        font-size: 18px;
-        line-height: 21px;
-        margin-top: 43px;
-    }
 }
 /*md*/
 @media (max-width: 767px) {
+    header{
+        padding: 0 20px;
+    }
+    header .left-item{
+        position: static;
+        float: left;
+    }
 
+    .contacts-header{
+        position: static;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+    .language-switch-box{
+        position: absolute;
+        right: 95px;
+        top: 30px;
+        padding: 0;
+        margin: 0;
+        width: auto;
+    }
+    nav.main-menu{
+        margin: 30px 0 0 0;
+        padding: 0;
+    }
+    .delivery-cart-wrap{
+        /*float: right;*/
+    }
+    .header-search{
+        padding: 0;
+        margin: 28px 0 0 0;
+        float: right;
+        clear: right;
+        width: 180px;
+    }
+    .header-search button{
+        right: 0;
+    }
+    .delivery-cart-wrap{
+        width: 100%;
+        padding: 3px 0 7px 0;
+        margin: 0;
+        clear: both;
+        text-align: center;
+    }
+    .delivery-cart-wrap span{
+        width: auto;
+    }
+    .header-cart {
+        right: 0;
+        top: -38px;
+    }
 }
 
 /*sm*/
