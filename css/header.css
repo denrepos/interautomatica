@@ -228,7 +228,7 @@ header .additional-contacts{
     height: initial;
     z-index: 5;
 }
-.contacts-header > span, .additional-contacts > span {
+.contacts-header > div > span, .additional-contacts > span {
     margin-bottom: 8px;
     display: inline-block;
     vertical-align: text-bottom;

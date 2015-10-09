@@ -71,6 +71,12 @@
                         <div></div>
                         <div></div>
                     </button>
+                    <ul class="main-menu-items-for-button display-none">
+                        <li><a href="#">Наша компания</a></li>
+                        <li><a href="#">Партнеры</a></li>
+                        <li><a href="#">Контакты</a></li>
+                        <li><a href="#">Техподдержка</a></li>
+                    </ul>
                     <ul class="main-menu-items">
                         <li><a href="#">Наша компания</a></li>
                         <li><a href="#">Партнеры</a></li>
@@ -87,17 +93,21 @@
                     <div class="header-cart"><div class="cart-image-wrap"><div class="cart-image"></div></div><a class="light-blue-text pointer">Корзина (3)</a></div>
                 </div>
                 <div class="contacts-header">
-                    <span class="bold">Не дозвонились?</span><a class="float-right pointer" onclick="$('#callback-modal').modal('show');">Заказать звонок</a>
-                    <br /><span>Факс: </span><span class="float-right phone-header">+38 (056) 744 97 31</span>
-                    <br /><span>Тел.: </span><span class="float-right phone-header-double"><span>+38 (056) 744 97 31</span><br><span>+38 (056) 744 97 31</span></span>
-                    <br /><span>E-mail: </span><a class="light-blue-text float-right underline" href="mailto:info@interautomatic.com.ua">info@interautomatic.com.ua</a>
-                    <br /><span>Офис: г.Днепропетровск</span><a class="float-right pointer" onclick="$('#road-map-modal').modal('show')">Карта</a>
-                    <span class="light-blue-text bold pointer plus-before" id="more-contacts" data-hide-show="class-additional-contacts">Ещё контакты</span>
-                </div>
-                <div class="additional-contacts display-none popup">
-                    <span>Viber</span><span class="float-right bold">viber.interautomatic</span>
-                    <br>
-                    <span>Watsapp</span><span class="float-right bold">watsapp.interautomatic</span>
+                    <div class="contacts-item-1">
+                        <span class="bold">Не дозвонились?</span><a class="float-right pointer" onclick="$('#callback-modal').modal('show');">Заказать звонок</a>
+                        <br /><span>Факс: </span><span class="float-right phone-header">+38 (056) 744 97 31</span>
+                        <br /><span>Тел.: </span><span class="float-right phone-header-double"><span>+38 (056) 744 97 31</span><br><span>+38 (056) 744 97 31</span></span>
+                        <br /><span>E-mail: </span><a class="light-blue-text float-right underline" href="mailto:info@interautomatic.com.ua">info@interautomatic.com.ua</a>
+                    </div>
+                    <div class="contacts-item-2">
+                        <span>Офис: г.Днепропетровск</span><a class="float-right pointer" onclick="$('#road-map-modal').modal('show')">Карта</a>
+                        <span class="light-blue-text bold pointer plus-before" id="more-contacts" data-hide-show="class-additional-contacts">Ещё контакты</span>
+                        <div class="additional-contacts display-none popup">
+                            <span>Viber</span><span class="float-right bold">viber.interautomatic</span>
+                            <br>
+                            <span>Watsapp</span><span class="float-right bold">watsapp.interautomatic</span>
+                        </div>
+                    </div>
                 </div>
 
             </div>

@@ -12,8 +12,12 @@ $('document').ready(function(){
     //close popaps when click on body and so
     $('body').click(function(event) {
 
-        $('.popup').fadeOut(200);
-        $('.plus-before').removeClass('minus-before');
+        if(window.matchMedia("(max-width: 767px)").matches){
+            $('.popup').not('.additional-contacts').fadeOut(200);
+            $('.plus-before').removeClass('minus-before');
+        }else{
+            $('.popup').fadeOut(200);
+        }
     });
 
     //show language popup
@@ -42,7 +46,7 @@ $('document').ready(function(){
     $('#main-menu-button').click(function(e){
 
         $(this).next().slideToggle();
-        $('.opacity').fadeIn();
+        $('.opacity').css('z-index','20').fadeIn();
         e.stopPropagation();
     })
 
@@ -139,7 +143,7 @@ $('document').ready(function(){
     //click on opacity actions
     $('.absolute-elements').on('click','.opacity',function(){
         $('.submenu').fadeOut(300,function(){$('.submenu').remove();});
-        $('.main-menu-items').fadeOut(200);
+        $('.main-menu-items-for-button').fadeOut(200);
         $('.opacity').fadeOut();
     });
 

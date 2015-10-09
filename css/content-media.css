@@ -84,12 +84,11 @@
         margin-left: 10px;
         margin-right: 20px;
     }
-    /*.content > :not(.viewed-products, .automation-components, .popular-products, .manufacturers, .design-development, .text-under-footer) {*/
-    /*margin-right: 12px;*/
-    /*}*/
-
 }
 @media (max-width: 767px) {
+}
+
+@media (max-width: 639px) {
 
     .content{
         padding: 0 20px;
@@ -137,8 +136,8 @@
     .block-under-previews ul{
         padding-right: 30px;
     }
-}
 
+}
 @media (max-width: 479px) {
 
 }
